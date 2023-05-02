@@ -1,0 +1,70 @@
+<table class="sio-table">
+  <thead>
+  <tr class="sio-table__row sio-table__row--header">
+    <!-- Using the key $implicit in the context object will set its value as default -->
+    <!-- https://angular.io/api/common/NgTemplateOutlet -->
+    <ng-container
+      *ngTemplateOutlet="
+              headers || defaultHeaderTemplate;
+              context: { $implicit: tableData }">
+    </ng-container>
+  </tr>
+  </thead>
+  <tbody>
+  <!-- loading -->
+  <ng-container *ngIf="loading">
+    <ng-container
+      *ngTemplateOutlet="load || defaultLoadTemplate">
+    </ng-container>
+  </ng-container>
+
+
+  <ng-container *ngIf="tableData.length && !loading; else noRows">
+    <tr *ngFor="let row of tableData" class="sio-table__row" (click)="rowClick(row)">
+      <ng-container
+        *ngTemplateOutlet="
+              rows || defaultRowTemplate;
+              context: { $implicit: row }">
+      </ng-container>
+    </tr>
+  </ng-container>
+  <!-- no rows -->
+  <ng-template #noRows>
+    <tr class="sio-table__row sio-table__row--empty">
+      <td [attr.colspan]="tableData[0]?.length">
+        <ng-container
+          *ngTemplateOutlet="empty || defaultEmptyTemplate;">
+        </ng-container>
+      </td>
+    </tr>
+  </ng-template>
+  </tbody>
+</table>
+
+<!-- If no template is provided use keys as headers and display all values -->
+<!--
+
+According to the Angular documentation (https://angular.io/api/common/KeyValuePipe), the keyvalue pipe sorts the items by key order by default.
+You can provide a comparer function to change that order, and sort the items according to the key,
+to the value, or to the entry order of the properties in the object.
+
+These comparer function are in the component file
+-->
+
+<ng-template #defaultHeaderTemplate let-data>
+  <th *ngFor="let header of data[0] | keyvalue:colOrder" (click)="headerSelect($event)"
+  [attr.data-test]="header.key">{{ header.key }}</th>
+
+</ng-template>
+
+<ng-template #defaultRowTemplate let-row>
+  <td *ngFor="let row of row | keyvalue:colOrder">{{ row.value }}</td>
+</ng-template>
+
+<ng-template #defaultEmptyTemplate>
+  Nothing to show here
+</ng-template>
+
+<ng-template #defaultLoadTemplate>
+  Loading...
+</ng-template>

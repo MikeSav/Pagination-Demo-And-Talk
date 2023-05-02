@@ -1,1 +1,160 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* raw values for scss loops */
+  --sio-green-raw-value: 0, 149, 52;
+  --sio-blue-raw-value: 25, 97, 166;
+  --sio-orange-raw-value: 240, 111, 50;
+  --sio-yellow-raw-value: 255, 213, 0;
+  --sio-red-raw-value: 228, 35, 38;
+
+  /* These are primary colours used for Status */
+  --sio-green: rgb(var(--sio-green-raw-value));
+  --sio-green-dark: #006222;
+  --sio-green-embedded: #00FF00;
+  --sio-green-20: rgba(0, 149, 52, 0.2);
+  --sio-green-10: rgba(0, 149, 52, 0.1);
+  --sio-green-05: rgba(0, 149, 52, 0.05);
+  --sio-red: rgb(var(--sio-red-raw-value));
+  --sio-red-dark: #851719;
+  --sio-red-embedded: #FF0000;
+  --sio-red-20: rgba(228, 35, 38, 0.2);
+  --sio-red-10: rgba(228, 35, 38, 0.1);
+  --sio-red-05: rgba(228, 35, 38, 0.05);
+  --sio-yellow: rgb(var(--sio-yellow-raw-value));
+  --sio-yellow-dark: #906D00;
+  --sio-yellow-embedded: #FFF200;
+  --sio-yellow-20: rgba(255, 213, 0, 0.2);
+  --sio-yellow-10: rgba(255, 213, 0, 0.1);
+  --sio-yellow-05: rgba(255, 213, 0, 0.05);
+  --sio-grey: #404040; /* mostly used for text */
+
+  /* secondary colors */
+
+  --sio-blue: rgb(var(--sio-blue-raw-value));
+  --sio-blue-dark: #143D67;
+  --sio-blue-opaque: #5176B3;
+  --sio-blue-50: rgba(25, 97, 166, 0.5);
+  --sio-blue-30: rgba(25, 97, 166, 0.3);
+  --sio-blue-20: rgba(25, 97, 166, 0.2);
+
+  --sio-aqua: #2CA7C2;
+  --sio-aqua-dark: #1E7083;
+  --sio-aqua-opaque: #64B4CB;
+  --sio-aqua-30: rgba(44, 167, 194, 0.3);
+
+  --sio-jade: #5CA794;
+  --sio-jade-dark: #519181;
+  --sio-jade-opaque: #83BBAD;
+  --sio-jade-20: #E6F1EF;
+  --sio-jade-30: rgba(92, 167, 148, 0.3);
+
+  --sio-orange: rgb(var(--sio-orange-raw-value));
+  --sio-orange-dark: #B15226;
+  --sio-orange-opaque: #F38A56;
+  --sio-orange-30: rgba(240, 111, 50, 0.3);
+
+  --sio-purple: #604287;
+  --sio-purple-dark: #463162;
+  --sio-purple-opaque: #8664B1;
+  --sio-purple-30: rgba(96, 66, 135, 0.3);
+
+  --sio-magenta: #E82D62;
+
+  /* these are neutral colours */
+  --sio-neutral-1: #161616;
+  --sio-neutral-2: #303030;
+  --sio-neutral-3: #636363;
+  --sio-neutral-4: #959595;
+  --sio-neutral-5: rgba(0, 0, 0, 0.2);
+  --sio-neutral-6: #DDDDDD;
+  --sio-neutral-7: #F2F2F2;
+  --sio-neutral-8: #E2E2E2;
+  --sio-neutral-9: #404040;
+  --sio-neutral-10: #C9C9C9;
+  --sio-inactive-bg: #EDEDED; /* Background color for disable states */
+
+  --silly-box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
+}
+
+/* fonts */
+/* bungee-shade-regular - latin */
+@font-face {
+  font-family: 'Bungee Shade';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/bungee-shade-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('./assets/fonts/bungee-shade-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/bungee-shade-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/bungee-shade-v11-latin-regular.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/bungee-shade-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/bungee-shade-v11-latin-regular.svg#BungeeShade') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./assets/fonts/roboto-v30-latin-100.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/roboto-v30-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/roboto-v30-latin-100.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/roboto-v30-latin-100.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/roboto-v30-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/roboto-v30-latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/roboto-v30-latin-300.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/roboto-v30-latin-300.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/roboto-v30-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/roboto-v30-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/roboto-v30-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/roboto-v30-latin-700.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/roboto-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/roboto-v30-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Bungee Shade';
+  font-size: 4rem;
+  -webkit-font-smoothing: antialiased;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-family: 'Bungee Shade';
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  margin: 1rem 0;
+}
+
+textarea {
+  width: 50%;
+  height: 300px;
+  background-color: var(--sio-neutral-5);
+  font-size: 1rem;
+}
+
+.mat-button.mat-primary .mat-button-focus-overlay {
+  background-color: transparent;
+}

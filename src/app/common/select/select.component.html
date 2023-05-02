@@ -1,0 +1,9 @@
+<select *ngIf="options?.length">
+  <ng-container>
+    <option *ngFor="let option of options; trackBy: trackByFn" [attr.value]="getOptionValue(option)">
+      {{ getOptionLabel(option) }}
+    </option>
+  </ng-container>
+</select>
+<div class="sio-select" (clickOutside)="closeTheOptions()">
+</div>

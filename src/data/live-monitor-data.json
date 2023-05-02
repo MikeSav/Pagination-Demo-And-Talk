@@ -1,0 +1,1050 @@
+[
+  {
+    "gateway": {
+      "tags": {
+        "company": {
+          "displayName": "MSA BRASIL",
+          "id": "50499c5c-0e52-461c-bba3-14cea911c581",
+          "language": "pt",
+          "parent": null,
+          "type": "company"
+        },
+        "department": null,
+        "worker": null
+      }
+    },
+    "hasIncident": true,
+    "serial": "A4XR_7638",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "IS_EVAC_STATUS_REMOTE_CLEAR",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675862670391
+      }
+    ],
+    "alarms": {
+      "flags": [],
+      "gasAlarm": false,
+      "gasWarning": false,
+      "hardwareError": false,
+      "isBatteryAlarm": false,
+      "isBatteryWarning": false,
+      "isBumpDue": false,
+      "isCalDue": false,
+      "isInPumpFault": false,
+      "isInstantAlarm": false,
+      "isLockAlarm": false,
+      "isManDown": false
+    },
+    "clearedIssues": [
+      {
+        "end": 1675862637107,
+        "flag": {
+          "alarm": "DEFICIENCY_ALARM",
+          "src": "SC_GASTYPE_O2"
+        },
+        "min": 19.5,
+        "start": 1675862635506
+      },
+      {
+        "end": 1675862644315,
+        "flag": {
+          "alarm": "DEFICIENCY_ALARM",
+          "src": "SC_GASTYPE_O2"
+        },
+        "min": 19.5,
+        "start": 1675862641654
+      },
+      {
+        "end": 1675862670391,
+        "flag": {
+          "alarm": "IS_EVAC_STATUS_SET",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675862660159
+      }
+    ],
+    "connectionState": "LOST",
+    "connectionStatePhone": "LOST",
+    "displayedSerial": "A4XR-00007638",
+    "evacEvents": [
+      {
+        "flag": {
+          "alarm": "EVAC_ISSUE",
+          "src": "VCR"
+        },
+        "start": 1675862658671
+      },
+      {
+        "flag": {
+          "alarm": "EVAC_ISSUE",
+          "src": "VCR"
+        },
+        "start": 1675862659018
+      },
+      {
+        "flag": {
+          "alarm": "EVAC_ISSUE",
+          "src": "VCR"
+        },
+        "start": 1675862659267
+      }
+    ],
+    "evacStartedTime": 1675862659267,
+    "evacStatus": "IS_EVAC_STATUS_REMOTE_CLEAR",
+    "gatewayId": "090b2090-b62b-4512-a4cf-11df3482a463",
+    "gps": {
+      "acc": 17.5,
+      "alt": 541,
+      "bearing": 0,
+      "lat": -10.45993136242032,
+      "long": -40.18773137591779,
+      "speed": 0.699999988079071,
+      "time": 1675936357380,
+      "hasLocation": true,
+      "isEnabled": true,
+      "updateRate": 900
+    },
+    "incident": {
+      "allClearedTime": 1675869319995,
+      "isClosable": true,
+      "startTime": 1675862635506,
+      "stopTime": 1675862660159
+    },
+    "instrumentType": "A4XR",
+    "lastUpdate": 1675937157281,
+    "phoneNumber": "5571992339545",
+    "review": false,
+    "sessionType": "worker",
+    "workerState": "review",
+    "id": "A4XR_7638",
+    "hasDetails": false,
+    "activeNetwork": false,
+    "activeWorker": true,
+    "tags": {
+      "company": {
+        "displayName": "MSA BRASIL",
+        "id": "50499c5c-0e52-461c-bba3-14cea911c581",
+        "language": "pt",
+        "parent": null,
+        "type": "company"
+      },
+      "department": null,
+      "worker": null
+    },
+    "workerName": null,
+    "nodes": [],
+    "displayName": "A4XR-00007638"
+  },
+  {
+    "gateway": {
+      "tags": {
+        "company": {
+          "displayName": "MSA Sales",
+          "id": "b760d0a2-aa98-4683-9373-089eb9a2fdba",
+          "language": "en",
+          "type": "company"
+        },
+        "department": null,
+        "worker": null
+      }
+    },
+    "hasIncident": true,
+    "serial": "A4XR_302874",
+    "activeIssues": [],
+    "alarms": {
+      "flags": [],
+      "gasAlarm": false,
+      "gasWarning": false,
+      "hardwareError": false,
+      "isBatteryAlarm": false,
+      "isBatteryWarning": false,
+      "isBumpDue": false,
+      "isCalDue": false,
+      "isInPumpFault": false,
+      "isInstantAlarm": false,
+      "isLockAlarm": false,
+      "isManDown": false
+    },
+    "clearedIssues": [
+      {
+        "end": 1675442951546,
+        "flag": {
+          "alarm": "EXPOSURE_WARN",
+          "src": "SC_GASTYPE_DUOTOX_H2S_3"
+        },
+        "peak": 20.3,
+        "start": 1675442910423
+      },
+      {
+        "end": 1675442951546,
+        "flag": {
+          "alarm": "DEFICIENCY_ALARM",
+          "src": "SC_GASTYPE_O2"
+        },
+        "min": 15.5,
+        "start": 1675442910865
+      },
+      {
+        "end": 1675442944843,
+        "flag": {
+          "alarm": "EXPOSURE_WARN",
+          "src": "SC_GASTYPE_DUOTOX_CO"
+        },
+        "peak": 63,
+        "start": 1675442911673
+      },
+      {
+        "end": 1675442951546,
+        "flag": {
+          "alarm": "EXPOSURE_ALARM",
+          "src": "SC_GASTYPE_COMB"
+        },
+        "peak": 34,
+        "start": 1675442912861
+      },
+      {
+        "end": 1675442951546,
+        "flag": {
+          "alarm": "EXPOSURE_ALARM",
+          "src": "SC_GASTYPE_DUOTOX_H2S_3"
+        },
+        "peak": 20.3,
+        "start": 1675442912861
+      },
+      {
+        "end": 1675443351576,
+        "flag": {
+          "alarm": "EXPOSURE_WARN",
+          "src": "SC_GASTYPE_COMB"
+        },
+        "peak": 10,
+        "start": 1675443327550
+      },
+      {
+        "end": 1675443814531,
+        "flag": {
+          "alarm": "MAN_DOWN",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675443803641
+      },
+      {
+        "end": 1675443840521,
+        "flag": {
+          "alarm": "INSTANT_ALARM",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675443834536
+      }
+    ],
+    "connectionState": "DISCONNECTED",
+    "connectionStatePhone": "DISCONNECTED",
+    "displayedSerial": "A4XR-00302874",
+    "evacEvents": [],
+    "evacStartedTime": null,
+    "evacStatus": "IS_EVAC_STATUS_IDLE",
+    "gatewayId": "1469b61f-da49-426b-9e00-b16486335129",
+    "gps": {
+      "acc": 9.935046195983887,
+      "alt": 2476.717529296875,
+      "bearing": 0,
+      "lat": -0.20771753,
+      "long": -78.37773476,
+      "speed": 0,
+      "time": 1675443128000,
+      "hasLocation": true,
+      "isEnabled": true,
+      "updateRate": 1
+    },
+    "incident": {
+      "allClearedTime": 1675444716521,
+      "isClosable": true,
+      "startTime": 1675442910423,
+      "stopTime": 1675443839542
+    },
+    "instrumentType": "A4XR",
+    "lastUpdate": 1675685886103,
+    "phoneNumber": "593990533901",
+    "review": true,
+    "sessionType": "worker",
+    "workerState": "warn",
+    "id": "A4XR_302874",
+    "hasDetails": false,
+    "activeNetwork": false,
+    "activeWorker": true,
+    "tags": {
+      "company": {
+        "displayName": "MSA Sales",
+        "id": "b760d0a2-aa98-4683-9373-089eb9a2fdba",
+        "language": "en",
+        "type": "company"
+      },
+      "department": null,
+      "worker": null
+    },
+    "workerName": null,
+    "nodes": [],
+    "displayName": "A4XR-00302874"
+  },
+  {
+    "id": "f7dd9053-fc22-4c28-934f-5807c7825182",
+    "gps": null,
+    "incident": null,
+    "displayName": "Thiago Souza",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675947989000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675947902000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675947946000
+      },
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675947193000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675947895000
+      }
+    ],
+    "connectionState": "CONNECTED",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "fd49d640-5b6a-4eef-896c-00c33321bae3",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675947584001,
+    "tags": {
+      "worker": {
+        "id": "83d65b54-58e1-4a9e-9d6e-d41f15d7d2db",
+        "type": "worker",
+        "parent": {
+          "id": "50499c5c-0e52-461c-bba3-14cea911c581",
+          "type": "company",
+          "displayName": "MSA BRASIL",
+          "originalName": "MSA BRASIL"
+        },
+        "displayName": "Thiago Souza",
+        "originalName": null
+      },
+      "company": {
+        "id": "50499c5c-0e52-461c-bba3-14cea911c581",
+        "type": "company",
+        "displayName": "MSA BRASIL",
+        "originalName": "MSA BRASIL"
+      }
+    },
+    "lastUpdate": 1675948056842,
+    "batteryPercentage": 46,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E00100162004B",
+    "workerName": "Thiago Souza",
+    "displayedSerial": "io4-001E00100162004B",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "938f2f61-7e65-437b-9231-3069a74aa40c",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 43.1379703,
+      "long": -71.5842161,
+      "acc": 6.05,
+      "time": 1675947809000
+    },
+    "incident": null,
+    "displayName": "Kyle O'Malley",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "CONNECTED",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "ed45bbed-0b59-4ea2-a350-9f5c36c84033",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675946900854,
+    "tags": {
+      "worker": {
+        "id": "0b9cb24f-2372-4a3a-b590-1b97c8362fe7",
+        "type": "worker",
+        "parent": {
+          "id": "fd292cdd-6ff9-42d5-bd7d-b81ec886a0a1",
+          "type": "company",
+          "displayName": "MSA Demo",
+          "originalName": null
+        },
+        "displayName": "Kyle O'Malley",
+        "originalName": null
+      },
+      "company": {
+        "id": "fd292cdd-6ff9-42d5-bd7d-b81ec886a0a1",
+        "type": "company",
+        "displayName": "MSA Demo",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675947863780,
+    "batteryPercentage": 36,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E00F00162009A",
+    "workerName": "Kyle O'Malley",
+    "displayedSerial": "io4-001E00F00162009A",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "741f0bc0-9aa8-42ea-83a8-f7412db64178",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 29.4789616,
+      "long": -95.1438386,
+      "acc": 7.9,
+      "time": 1675948117000
+    },
+    "incident": null,
+    "displayName": "Ryan Falterman",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "CONNECTED",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "302df7c6-7a24-474f-81a2-92322db77d6f",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675944758131,
+    "tags": {
+      "worker": {
+        "id": "08901afb-17a7-4e38-9ca6-17ea9d232291",
+        "type": "worker",
+        "displayName": "Ryan Falterman",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675948118669,
+    "batteryPercentage": 98,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E00F0015A001C",
+    "workerName": "Ryan Falterman",
+    "displayedSerial": "io4-001E00F0015A001C",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "bfe6751b-ddb1-491b-ba00-1bfa9220da23",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 37.3900328,
+      "long": -76.7810226,
+      "acc": 7.1,
+      "time": 1675948120000
+    },
+    "incident": null,
+    "displayName": "Eric Buzard",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675944719000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675944727000
+      }
+    ],
+    "connectionState": "CONNECTED",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "2724a0bc-f5de-49ac-9785-c5df742c1daf",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675944660493,
+    "tags": {
+      "worker": {
+        "id": "3161450a-a7b1-4b64-ac1a-ccc9a4f2b8dd",
+        "type": "worker",
+        "displayName": "Eric Buzard",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675948122816,
+    "batteryPercentage": 95,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E001001620042",
+    "workerName": "Eric Buzard",
+    "displayedSerial": "io4-001E001001620042",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "01265f34-46c7-4c67-90e4-3b810584ac2a",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 39.5946383,
+      "long": -86.2034913,
+      "acc": 5.85,
+      "time": 1675948123000
+    },
+    "incident": null,
+    "displayName": "BJ Shrader",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "CONNECTED",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "e7c7c587-8335-44f6-a5a9-edadbb1b5db6",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675944897639,
+    "tags": {
+      "worker": {
+        "id": "6ec89bad-d5ee-4385-9207-9d9d0f8569d9",
+        "type": "worker",
+        "displayName": "BJ Shrader",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675948124113,
+    "batteryPercentage": 96,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E0010016200CA",
+    "workerName": "BJ Shrader",
+    "displayedSerial": "io4-001E0010016200CA",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "952e06d9-f894-4637-9eaf-71dfafba2ce0",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 39.7251523,
+      "long": -104.7191236,
+      "acc": 7.7,
+      "time": 1675904559000
+    },
+    "incident": null,
+    "displayName": "Adam Gutierrez",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "ALARM_REMOTE_MESSAGE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675904554000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": 1065
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "DEFICIENCY_ALARM",
+          "src": "SC_GASTYPE_O2"
+        },
+        "type": "ALARM",
+        "start": 1675870178000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675870196000
+      }
+    ],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "73049186-50ef-4a1c-b779-fc81112ed12c",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675865859184,
+    "tags": {
+      "worker": {
+        "id": "3704d860-804b-4032-b43c-56ed319f4c88",
+        "type": "worker",
+        "parent": {
+          "id": "71124287-2416-4674-ae01-9784fcdb3681",
+          "type": "company",
+          "displayName": "MSA",
+          "originalName": null
+        },
+        "displayName": "Adam Gutierrez",
+        "originalName": null
+      },
+      "company": {
+        "id": "71124287-2416-4674-ae01-9784fcdb3681",
+        "type": "company",
+        "displayName": "MSA",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675904620927,
+    "batteryPercentage": 6,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E00F001620095",
+    "workerName": "Adam Gutierrez",
+    "displayedSerial": "io4-001E00F001620095",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "9369737b-3041-47a9-acbb-310035cb6bfe",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 30.4225798,
+      "long": -97.591089,
+      "acc": 3.7,
+      "time": 1675888595000
+    },
+    "incident": null,
+    "displayName": "EJ Wrzesinski",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675866575000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "fadb5343-2b2f-4df3-ae99-abc281b8348d",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675866515361,
+    "tags": {
+      "worker": {
+        "id": "9e0419ba-6e27-4edb-bb3f-3504c1bbbf8b",
+        "type": "worker",
+        "parent": {
+          "id": "9a204357-4496-4c1b-ac88-39ca883325b7",
+          "type": "company",
+          "displayName": "Demo Inc - Houston TX",
+          "originalName": null
+        },
+        "displayName": "EJ Wrzesinski",
+        "originalName": null
+      },
+      "company": {
+        "id": "9a204357-4496-4c1b-ac88-39ca883325b7",
+        "type": "company",
+        "displayName": "Demo Inc - Houston TX",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675897263895,
+    "batteryPercentage": 47,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E001001670282",
+    "workerName": "EJ Wrzesinski",
+    "displayedSerial": "io4-001E001001670282",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "57c0608c-1bbd-481a-8c9d-92d6f04ab8b1",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 43.4972853,
+      "long": 3.723544,
+      "acc": 3.7,
+      "time": 1675886981000
+    },
+    "incident": null,
+    "displayName": "David HUGUES",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675856339000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      },
+      {
+        "flag": {
+          "alarm": "BATTERY_ALARM",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675886991000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "EXPOSURE_WARN",
+          "src": "SC_GASTYPE_DUOTOX_CO"
+        },
+        "type": "WARNING",
+        "start": 1675883028000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675883046000
+      }
+    ],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "2be2238c-881b-47a7-aa31-2cd3d496a3e3",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675856458126,
+    "tags": {
+      "worker": {
+        "id": "2113f951-bd39-4721-bbba-6b91cae8000a",
+        "type": "worker",
+        "parent": {
+          "id": "4acf5638-71f9-4580-b584-ad20dfcd63e8",
+          "type": "company",
+          "displayName": "MSA FRANCE",
+          "originalName": null
+        },
+        "displayName": "David HUGUES",
+        "originalName": null
+      },
+      "company": {
+        "id": "4acf5638-71f9-4580-b584-ad20dfcd63e8",
+        "type": "company",
+        "displayName": "MSA FRANCE",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675887065050,
+    "batteryPercentage": 2,
+    "instrumentType": "io4",
+    "workerState": "inc",
+    "sessionType": "worker",
+    "serial": "001E00100162008E",
+    "workerName": "David HUGUES",
+    "displayedSerial": "io4-001E00100162008E",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "d0af3fc4-eac9-4dd0-bf87-6170de4fbd4c",
+    "gps": {
+      "hasLocation": true,
+      "isEnabled": true,
+      "lat": 40.6761485,
+      "long": -80.0870225,
+      "acc": 4,
+      "time": 1675885672000
+    },
+    "incident": null,
+    "displayName": "io4-001E001001680128",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "f5053a7e-0b68-4733-a760-f52ceb30024c",
+    "io4IsWorkerAssigned": false,
+    "startTime": 1675885695989,
+    "tags": null,
+    "lastUpdate": 1675885749122,
+    "batteryPercentage": 53,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E001001680128",
+    "workerName": "io4-001E001001680128",
+    "displayedSerial": "io4-001E001001680128",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "579626da-6aeb-49b6-b072-e635290aab0b",
+    "gps": null,
+    "incident": null,
+    "displayName": "io4-001E001001620070",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675872397000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675878507000
+      }
+    ],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "4ed76569-c691-44dc-87bc-185610500d38",
+    "io4IsWorkerAssigned": false,
+    "startTime": 1675872337113,
+    "tags": {
+      "company": {
+        "id": "bd520f7a-3d53-4034-9b36-4bed0313cda0",
+        "type": "company",
+        "displayName": "Safety io",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675880325099,
+    "batteryPercentage": 90,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E001001620070",
+    "workerName": "io4-001E001001620070",
+    "displayedSerial": "io4-001E001001620070",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "1bbaf453-0639-4043-b8b4-0bf3b3dbb946",
+    "gps": null,
+    "incident": null,
+    "displayName": "Daniel Judd",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675877644000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [
+      {
+        "flag": {
+          "alarm": "ALARM_REMOTE_MESSAGE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675877778000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": 11366,
+        "end": 1675877788000
+      }
+    ],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "811a3e2f-5545-4544-b059-30403d405de3",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675877778836,
+    "tags": {
+      "worker": {
+        "id": "fdeef05d-386a-4d0d-a430-427155d8cba8",
+        "type": "worker",
+        "displayName": "Daniel Judd",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675878692540,
+    "batteryPercentage": 99,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E00F001620039",
+    "workerName": "Daniel Judd",
+    "displayedSerial": "io4-001E00F001620039",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "4dd45375-a415-448f-80d7-9f6d4d2d3bd0",
+    "gps": null,
+    "incident": null,
+    "displayName": "Jenkin Yeung",
+    "activeIssues": [],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "b7562fca-4c74-4f85-af6e-68cc93254cd2",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675865555913,
+    "tags": {
+      "worker": {
+        "id": "a7e21975-c7ff-488b-838e-40e9a6a8c8eb",
+        "type": "worker",
+        "displayName": "Jenkin Yeung",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675865738804,
+    "instrumentType": "io4",
+    "workerState": "good",
+    "sessionType": "worker",
+    "serial": "001E0010016200B3",
+    "workerName": "Jenkin Yeung",
+    "displayedSerial": "io4-001E0010016200B3",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "e4002da1-f6b7-4c70-8126-165383cb49ce",
+    "gps": null,
+    "incident": null,
+    "displayName": "Tata Steel",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675747923000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [],
+    "clearedIssues": [],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "a9616c1f-620d-46a4-b670-3b0dea26ed02",
+    "io4IsWorkerAssigned": true,
+    "startTime": 1675748066342,
+    "tags": {
+      "worker": {
+        "id": "5a8cf91a-3469-4a8e-86e7-8ec140b6e66d",
+        "type": "worker",
+        "parent": {
+          "id": "31f0f4ab-17a1-4c30-a0ff-63a77ce4d48c",
+          "type": "company",
+          "displayName": "MSA Middle East",
+          "originalName": null
+        },
+        "displayName": "Tata Steel",
+        "originalName": null
+      },
+      "company": {
+        "id": "31f0f4ab-17a1-4c30-a0ff-63a77ce4d48c",
+        "type": "company",
+        "displayName": "MSA Middle East",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675753962610,
+    "batteryPercentage": 55,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E0010016200AD",
+    "workerName": "Tata Steel",
+    "displayedSerial": "io4-001E0010016200AD",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  },
+  {
+    "id": "11c1d56f-540b-4d07-99b6-3480e23e7e6f",
+    "gps": null,
+    "incident": null,
+    "displayName": "io4-001E001001670328",
+    "activeIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "start": 1675267071000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null
+      }
+    ],
+    "reviewedIssues": [
+      {
+        "flag": {
+          "alarm": "BUMP_DUE",
+          "src": "INSTRUMENT"
+        },
+        "type": "WARNING",
+        "start": 1675267056000,
+        "peak": null,
+        "min": null,
+        "remoteAlarmId": null,
+        "end": 1675267057000,
+        "reviewedBy": "Bruce Smith"
+      }
+    ],
+    "clearedIssues": [],
+    "connectionState": "LOST",
+    "io4LatestReadings": null,
+    "hasDetails": false,
+    "io4SessionId": "97aefdee-024c-49d3-a6e9-c770dbd33f72",
+    "io4IsWorkerAssigned": false,
+    "startTime": 1675267001317,
+    "tags": {
+      "company": {
+        "id": "5b89bc85-7ad7-4191-89ba-b859805235d7",
+        "type": "company",
+        "displayName": "Demo Inc - Berlin DE",
+        "originalName": null
+      }
+    },
+    "lastUpdate": 1675431936475,
+    "instrumentType": "io4",
+    "workerState": "warn",
+    "sessionType": "worker",
+    "serial": "001E001001670328",
+    "workerName": "io4-001E001001670328",
+    "displayedSerial": "io4-001E001001670328",
+    "evacStatus": "IS_EVAC_STATUS_IDLE"
+  }
+]

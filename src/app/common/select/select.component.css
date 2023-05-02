@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.sio-select {
+  position: relative;
+  font-family: 'Bungee Shade';
+  font-size: 1.5rem;
+}
+
+.sio-select__options {
+  max-height: 200px;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid var(--sio-neutral-10);
+  border-top: none;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  box-shadow: var(--silly-box-shadow);
+}
+
+.sio-select__options--closed {
+  display: none;
+}
+
+.sio-select__option {
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 0.5rem 0.5rem 0.5rem;
+  border-bottom: 1px solid var(--sio-neutral-10);
+  user-select: none;
+}
+
+.sio-select__option:last-of-type {
+  border-bottom: none;
+}
+
+.sio-select__selected {
+  border: 1px solid var(--sio-neutral-10);
+  padding: 0.5rem 0.5rem 0.5rem;
+  user-select: none;
+  background-color: var(--sio-neutral-7);
+}
+
+/* Style the arrow inside the select element: */
+.sio-select__selected:after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 3px);
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: var(--sio-neutral-1) transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.sio-select__selected.sio-select__selected--open:after {
+  border-color: transparent transparent var(--sio-neutral-1) transparent;
+  top: calc(50% - 6px);
+}
+
+.sio-select--selected:hover {
+  background-color: transparent;
+}
+
+
+.sio-select__option:hover {
+  background-color: var(--sio-green-20);
+}
+
+select {
+  display: none;
+}

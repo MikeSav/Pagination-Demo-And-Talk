@@ -1,0 +1,50 @@
+[{
+  "lineManager": "Rene",
+  "name": "Mike",
+  "position": "Team Lead",
+  "location": "Berlin",
+  "superPower": "100% Cool"
+},
+  {
+    "lineManager": "Mike",
+    "name": "Philip",
+    "position": "Developer Wünderbar",
+    "location": "Berlin",
+    "superPower": "Strength"
+  },
+  {
+    "lineManager": "Mike",
+    "name": "Shane",
+    "position": "Developer Tops",
+    "location": "Berlin",
+    "superPower": "Flight"
+  },
+  {
+    "lineManager": "Mike",
+    "name": "Alex",
+    "position": "Developer Egal",
+    "location": "Berlin",
+    "superPower": "Cats"
+  },
+  {
+    "lineManager": "Mike",
+    "name": "Javi",
+    "position": "Developer Arriba!",
+    "location": "Berlin",
+    "superPower": "Seduction"
+  },
+  {
+    "lineManager": "No man can contain him!",
+    "name": "Michael",
+    "position": "Backend Breakout",
+    "location": "Berlin",
+    "superPower": "Reproduction"
+  },
+  {
+    "lineManager": "Mike",
+    "name": "Kate",
+    "position": "S-Q-E like A-B-C",
+    "location": "Berlin",
+    "superPower": "X Ray Vision"
+  }
+]

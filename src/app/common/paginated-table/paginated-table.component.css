@@ -1,0 +1,48 @@
+::ng-deep .sio-table {
+  font-family: 'Roboto';
+  width: 100%;
+  font-weight: 300;
+  table-layout: auto;
+  white-space: normal;
+  font-size: 14px;
+  border-spacing: 0;
+  box-shadow: var(--silly-box-shadow);
+}
+
+::ng-deep .sio-table__row {
+  height: 56px;
+  transition: all 300ms ease;
+}
+
+::ng-deep .sio-table__row:hover {
+  background-color: var(--sio-green-20);
+}
+
+::ng-deep .sio-table__row--header {
+  height: 56px;
+}
+
+::ng-deep .sio-table__row--empty {
+  text-align: center;
+}
+
+::ng-deep .sio-table__row--empty:hover {
+  background-color: #FFFFFF;
+}
+
+::ng-deep .sio-table__row--header:hover {
+  background-color: revert;
+}
+
+::ng-deep .sio-table td {
+  padding: 0 16px 0 16px;
+  border-bottom: 1px solid var(--sio-neutral-10);
+}
+
+::ng-deep .sio-table th {
+  text-align: left;
+  padding: 0 16px 0 16px;
+  border-bottom: 1px solid var(--sio-neutral-10);
+  font-weight: 400;
+}
+
